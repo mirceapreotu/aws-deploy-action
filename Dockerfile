@@ -1,4 +1,5 @@
-FROM node:12
+#FROM node:12
+FROM node:18
 
 LABEL "com.github.actions.name"="AWS Deploy Action"
 LABEL "com.github.actions.description"="Build distribution using npm, syncs dist folder to an AWS S3 bucket and invalidates a AWS CloudFront distribution."
